@@ -1,10 +1,66 @@
 {
-  "version": "0.1.0",
-  "id": "YourPreferredAlias.AnIDForTheMod",
-  "name": "Incredible Mod",
-  "description": "A truly amazing mod",
-  "authors": [
-    "Your Preferred Alias"
-  ],
-  "frameworkVersion": "2.1.5"
+	"version": "0.1.0",
+	"id": "Atampy26.HackableEverything",
+	"name": "Hackable Everything",
+	"description": "Watch Dogs but Hitman",
+	"authors": [
+		"Atampy26"
+	],
+	"frameworkVersion": "2.0.0",
+	"options": [
+		{
+			"name": "Tamper with smart toilets",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": [
+				"toilets"
+			]
+		},
+		{
+			"name": "Activate vehicle alarms",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": [
+				"vehicles"
+			]
+		},
+		{
+			"name": "Break cameras",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": [
+				"cameras"
+			]
+		},
+		{
+			"name": "Activate fire alarms",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": [
+				"alarms"
+			]
+		},
+		{
+			"name": "Destroy security camera recordings",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": [
+				"recorders"
+			]
+		},
+		{
+			"name": "Distract NPCs",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"dependencies": [
+				"0006BAA7B9DA5696"
+			],
+			"contentFolders": [
+				"npcs"
+			]
+		}
+	],
+	"contentFolders": [
+		"content"
+	]
 }
