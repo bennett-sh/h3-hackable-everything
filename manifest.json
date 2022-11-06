@@ -58,6 +58,14 @@
       "contentFolders": [
         "npcs"
       ]
+    },
+    {
+      "name": "Unlock RFID access panels",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "rfid"
+      ]
     }
   ],
   "updateCheck": "https://github.com/atampy25/h3-hackable-everything/releases/latest/download/updates.json"
