@@ -66,6 +66,14 @@
       "contentFolders": [
         "rfid"
       ]
+    },
+    {
+      "name": "Cheat vending machines",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "vending"
+      ]
     }
   ],
   "updateCheck": "https://github.com/atampy25/h3-hackable-everything/releases/latest/download/updates.json"
