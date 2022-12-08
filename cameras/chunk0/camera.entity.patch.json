@@ -1,1 +1,1 @@
-{"tempHash":"00C4101464308F37","tbluHash":"001E4C444002AC37","patch":[{"op":"replace","path":"/entities/b8eb76b5c7a1de99/properties/m_bValue/value","value":true}],"patchVersion":5}
+{"tempHash":"00C4101464308F37","tbluHash":"001E4C444002AC37","patch":[{"SubEntityOperation":["b8eb76b5c7a1de99",{"SetPropertyValue":{"property_name":"m_bValue","value":true}}]}],"patchVersion":6}
