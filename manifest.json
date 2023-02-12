@@ -77,6 +77,12 @@
       "contentFolders": [
         "vending"
       ]
+    },
+    {
+      "name": "Infinite Range",
+      "type": "checkbox",
+      "enabledByDefault": false,
+      "contentFolders": ["infiniteRange"]
     }
   ],
   "updateCheck": "https://github.com/atampy25/h3-hackable-everything/releases/latest/download/updates.json"
